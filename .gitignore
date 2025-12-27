@@ -1,0 +1,87 @@
+####################################
+# General
+####################################
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+*.log
+
+####################################
+# Node / Next.js
+####################################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.next/
+out/
+build/
+.vercel/
+.turbo/
+.cache/
+
+####################################
+# TypeScript
+####################################
+*.tsbuildinfo
+
+####################################
+# Python
+####################################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+####################################
+# Python Virtual Environments
+####################################
+venv/
+.venv/
+env/
+ENV/
+virtualenv/
+
+####################################
+# Python Frameworks
+####################################
+# Flask
+instance/
+.webassets-cache
+
+# Django
+db.sqlite3
+staticfiles/
+media/
+
+####################################
+# Python Packaging
+####################################
+*.egg-info/
+.eggs/
+dist/
+build/
+
+####################################
+# Jupyter
+####################################
+.ipynb_checkpoints/
+
+####################################
+# IDEs & Editors
+####################################
+.vscode/
+.idea/
+*.swp
+*.swo
+
+####################################
+# OS
+####################################
+*.DS_Store
+ehthumbs.db
+Icon?
